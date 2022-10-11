@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DAM_Lab07.MainPage">
+
+    <StackLayout Padding="12">
+        <Label Text="Leer codigo QR" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" Padding="24" FontAttributes="Bold"></Label>
+        <!--<Button Text="Scan" Clicked="Button_Clicked"/>-->
+        
+        <Button x:Name="btnScannerQR" Text="Leer QR" Clicked="btnScannerQR_Clicked" BackgroundColor="Bisque"></Button>
+        <Entry x:Name="txtResultado" Placeholder="Resultado QR" AnchorY="20" FontAttributes="Bold"/>
+    </StackLayout>
+
+</ContentPage>
